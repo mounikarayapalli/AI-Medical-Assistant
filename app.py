@@ -9,6 +9,7 @@ from gtts import gTTS
 import os
 import speech_recognition as sr
 
+
 # Configure Gemini API
 genai.configure(api_key="your API key")  # Replace with your API key
 gmodel = genai.GenerativeModel("gemini-1.5-flash")
