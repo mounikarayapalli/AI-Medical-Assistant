@@ -70,35 +70,46 @@ pip install -r requirements.txt
 Set Your Gemini API Key
 Replace "your API key" in app.py with your Gemini API key.
 
-Run the App
-
-bash
-Copy
-Edit
+## Run the App
 streamlit run app.py
-📁 Folder Structure
+
+## The main point
+##🧠 Smart Code Behavior:
+We use:
+IS_STREAMLIT_CLOUD = os.getenv("STREAMLIT_ENV") == "cloud"
+
+That checks if your app is running on Streamlit Cloud (Streamlit automatically sets this).
+Then, in your function:
+if IS_STREAMLIT_CLOUD:
+    st.warning("Voice input is disabled...")
+    return ""
+
+## So:
+🖥️ Locally = Mic works ✅
+☁️ On Cloud = Voice input disabled, but app still runs ✅
+
+## 📁 Folder Structure
 bash
-Copy
-Edit
+
 ├── app.py                  # Main Streamlit application
+
 ├── requirements.txt        # Required dependencies
+
 ├── assets/                 # Optional: images, icons
+
 └── README.md               # Project documentation
-🧪 Example Use Case
+
+
+## 🧪 Example Use Case
 A user uploads a chest X-ray image.
-
 The app predicts a condition like "Pneumonia".
-
 Gemini AI explains what Pneumonia is, its symptoms, treatment, and advice.
-
 The user asks follow-up questions like "Can I recover at home?" via voice or text.
-
 AI responds with caring and informative guidance, optionally as audio.
 
 🙋‍♀️ Made With Love By
 👩‍💻 Mounika Rayapalli
 Passionate about using AI for real-world health solutions and making technology more human-centric.
-
 “I believe in using tech to simplify lives — especially when it comes to health.”
 
 📌 Note
