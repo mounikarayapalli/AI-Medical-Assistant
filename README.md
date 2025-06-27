@@ -2,6 +2,8 @@
 
 Welcome to the **AI Medical X-Ray Assistant** — an intelligent healthcare companion built with **Streamlit**, **Gemini AI**, and **Computer Vision**. This project is designed to assist patients and healthcare providers by analyzing medical X-rays or scanning reports and generating a human-friendly explanation of the diagnosis and recommended treatments.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-medical-x-ray-assistant.streamlit.app)
+
 
 ---
 
