@@ -103,22 +103,14 @@ Passionate about using AI for real-world health solutions and making technology 
 
 📌 Note
 This project is a prototype and not a substitute for professional medical advice.
-
 Always consult certified medical professionals for any diagnosis or treatment.
 
 🌐 License
 This project is licensed under the MIT License.
 
 🔗 Connect
-🔗 LinkedIn
-
-🌐 Portfolio
-
-📧 rayapallimounika@example.com
-
-yaml
-Copy
-Edit
+🔗 LinkedIn : www.linkedin.com/in/rayapalli-mounika
+📧 rayapallymounika@gmail.com
 
 ---
 
